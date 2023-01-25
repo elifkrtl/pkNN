@@ -13,13 +13,9 @@ Let $p$ be any prime number. For any nonzero integer $\alpha$, let $ord_p(\alpha
 
 $$\alpha' = p^{ord_p ( \alpha )} \ \alpha' $$
 
-where $\alpha'$ is an integer and $p  \nmid \alpha'$. This map is called The $p$-adic absolute value and is a matric on Q.
+where $\alpha'$ is an integer and $p  \nmid \alpha'$.
 
-<h4>Example</h4>
-
-$$ord_5(125)=3, ord_5(50)=2, ord_2(32)=5, ord_7(99)=0$$
-
-Let $p$ be a prime. We define the map $\mid \cdot \mid_p$ on $\mathbb{Q}$ as:
+Let $p$ be a prime. The map $\mid \cdot \mid_p$ on $\mathbb{Q}$ is defined as:
 
 $$ 
 \mid x \mid_p= 
@@ -29,7 +25,11 @@ p^{-ord_p(x)} & \textrm{if} & x \neq 0, \nonumber\\
 \end{cases}
 $$
 
-We call this map the $p$-adic absolute value. 
+This map is called the $p$-adic absolute value and is a metric on $\mathbb{Q}$.
+
+<h4>Example</h4>
+
+$$ord_5(125)=3, ord_5(50)=2, ord_2(32)=5, ord_7(99)=0$$
 
 <h4>Example</h4>
 
