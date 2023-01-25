@@ -5,7 +5,7 @@ The effect of the distance/similarity metric used in the analysis on the $k$-NN 
 In this project, the $p$-adic metric defined on rational numbers is coupled with $k$-NN algorithm. 
 According to the theorem of Ostrowski, there are only two nontrivial absolute values on $\mathbb{Q}$, which are the usual absolute value and a $p$-adic absolute value for a prime $p$. 
 
-This project is a part of a scientfic research which is under review now.
+This project is a part of a scientfic research which is under review now. If you want to try <b>pkNN</b> in Python, please import our <b>p_adic.py</b> module first.
 
 <h2>The $p$-Adic Metric </h2>
 
@@ -20,6 +20,8 @@ where $\alpha'$ is an integer and $p  \nmid \alpha'$.
 <h4>Example</h4>
 
 $$ord_5(125)=3, ord_5(50)=2, ord_2(32)=5, ord_7(99)=0$$
+
+For more examples, please see <a href="https://github.com/elifkrtl/pkNN/blob/main/p_adic_examples.pdf" target="_blank">p_adic_examples.pdf</a> and <a href="https://github.com/elifkrtl/pkNN/blob/main/p_adic_examples.py" target="_blank">p_adic_examples.py</a>.
 
 <h2> The $p$-adic Distance </h2>
 
