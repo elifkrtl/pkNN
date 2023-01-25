@@ -21,6 +21,22 @@ where $\alpha'$ is an integer and $p  \nmid \alpha'$.
 
 $$ord_5(125)=3, ord_5(50)=2, ord_2(32)=5, ord_7(99)=0$$
 
+Let $p$ be a prime. We define the map $\mid \cdot \mid_p$ on $\mathbb{Q}$ as:
+
+$$ 
+\mid x \mid_p= 
+\begin{cases}
+p^{-ord_p(x)} & \textrm{if} & x \neq 0, \nonumber\\
+0 & \textrm{if} & x = 0. \nonumber
+\end{cases}
+$$
+
+We call this map the $p$-adic absolute value. 
+
+<h4>Example</h4>
+
+For the 5-adic metric on $\mathbb{Q}$, $\mid 25 \mid_5=\frac{1}{5^2}=\frac{1}{25}$ and  for the 3-adic metric on $\mathbb{Q}$,     $\mid 25 \mid_3=\frac{1}{5^0}=1$ and     $\mid \frac{18}{27} \mid_3=\frac{3^3}{3^2}=\frac{27}{9}$=3.
+
 For more examples, please see <a href="https://github.com/elifkrtl/pkNN/blob/main/p_adic_examples.pdf" target="_blank">p_adic_examples.pdf</a> and <a href="https://github.com/elifkrtl/pkNN/blob/main/p_adic_examples.py" target="_blank">p_adic_examples.py</a>.
 
 <h2> The $p$-adic Distance </h2>
