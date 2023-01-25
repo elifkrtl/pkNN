@@ -9,13 +9,11 @@ This project is a part of a scientfic research which is under review now. If you
 
 <h2>The $p$-Adic Metric </h2>
 
-We know one metric on $\mathbb{Q}$ that induced by the usual absolute value $\mid \cdot \mid_\infty$. In this section, we focus on an another metric on $\mathbb{Q}$ called the $p$-adic metric and some of its properties. 
-
 Let $p$ be any prime number. For any nonzero integer $\alpha$, let $ord_p(\alpha)$ be the unique positive integer such that
 
 $$\alpha' = p^{ord_p ( \alpha )} \ \alpha' $$
 
-where $\alpha'$ is an integer and $p  \nmid \alpha'$. 
+where $\alpha'$ is an integer and $p  \nmid \alpha'$. This map is called The $p$-adic absolute value and is a matric on Q.
 
 <h4>Example</h4>
 
