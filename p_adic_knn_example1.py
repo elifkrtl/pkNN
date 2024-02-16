@@ -5,6 +5,7 @@ Created on January 24, 2023
     Elif KARTAL, Istanbul University, Faculty of Economics, Department of Management Information Systems 
     Beyaz Basak ESKISEHIRLI, Faculty Of Science, Department Of Mathematics
     Fatma CALISKAN, Faculty Of Science, Department Of Mathematics
+    Zeki OZEN, Istanbul University, Faculty of Economics, Department of Management Information Systems 
     
 @title: A Simple k-Nearest Neighbor Example with p-adic Distance
 @data: In this example data is created by authors with random numbers.
