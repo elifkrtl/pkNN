@@ -2,13 +2,15 @@
 """
 Created on February 16, 2024
 @authors: 
-    Elif KARTAL, Istanbul University, Faculty of Economics, Department of Management Information Systems 
-    Beyaz BaŞak ESKISEHIRLI, Faculty Of Science, Department Of Mathematics
-    Fatma CALISKAN, Faculty Of Science, Department Of Mathematics
+    Elif KARTAL, Istanbul University, Faculty of Economics, Department of Management Information Systems
+    Beyaz Basak ESKISEHIRLI, Faculty of Science, Department of Mathematics
+    Fatma CALISKAN, Faculty of Science, Department of Mathematics
     Zeki OZEN, Istanbul University, Faculty of Economics, Department of Management Information Systems
     
-@title: p-adic Module V1.3
+@title: p-adic Module
+@ver: 1.1
 """
+
 import numpy as np
 import pandas as pd
 from functools import partial
@@ -44,7 +46,8 @@ def p_adic_val(my_num, p_num):
         
     else:
         print("p should be a prime number!")
-        
+
+
 # This function calculates the p-adic power and value of the given number.
 def p_adic_pow_val(my_num, p_num):
     if is_prime(p_num):
@@ -61,10 +64,9 @@ def p_adic_pow_val(my_num, p_num):
         print("p should be a prime number!")
 
 
-
 # This function calculates the p-adic distance of given 1D arrays.
 def p_adic_dist(x_vec, y_vec, p_adic_p):
-    diff = np.fabs(x_vec - y_vec)
+    diff = np.round(np.fabs(x_vec - y_vec),6)
     p_adic_vals = np.vectorize(partial(p_adic_val, p_num=p_adic_p),  otypes=[float])(diff)
     return np.sum(p_adic_vals)
 
