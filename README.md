@@ -58,7 +58,7 @@ $$d( x, y ) = \mid x - y \mid _p.$$
 
 This definition can be extended to the set $\mathbb{Q}^n$ such that
 
-$$d( x, y ) = \sum_{i=1}^n \mid x_i - y_i \mid _p,$$
+$$d( x, y ) = \sum_{i=1}^n d( x_i, y_i )=\sum_{i=1}^n \mid x_i - y_i \mid _p,$$
 
 where $x=(x_1, \dots, x_n),  y=(y_1, \dots, y_n) \in \mathbb{Q}^n$ and $n\in \mathbb{N}$. Therefore, the $p$-adic metric defined on rational numbers is suitable for working with real-world datasets. }
 
