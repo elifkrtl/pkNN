@@ -5,7 +5,14 @@ The effect of the distance/similarity metric used in the analysis on the $k$-NN 
 In this project, the $p$-adic metric defined on rational numbers is coupled with $k$-NN algorithm. 
 According to the theorem of Ostrowski, there are only two nontrivial absolute values on $\mathbb{Q}$, which are the usual absolute value and a $p$-adic absolute value for a prime $p$. 
 
-This project is a part of a scientfic research which is under review now. If you want to try <b>pkNN</b> in Python, please import our <b>p_adic.py</b> module first.
+
+\textcolor{Fatma}{According to the theorem of Ostrowski, there are only two nontrivial absolute values on $\mathbb{Q}$, which are the usual absolute value and $p$-adic absolute value for a prime $p$. In this project, the $p$-adic metric defined on rational numbers is coupled with $k$-NN algorithm.}
+
+This project is a part of a scientfic research which is under review now . If you want to try <b>pkNN</b> in Python, please import our <b>p_adic.py</b> module first.
+
+\textcolor{Fatma}{ Yukarıdaki cumleyi TUBITAK proje nosu ile degiştirelim mi? }
+
+\textcolor{Fatma}{ <b>pkNN</b> kisaltmasi uygun mu? Diger distances nasıl kisaltilacak? p-adic Euclidean with kNN: pE_kNN? p-adic Manhattan with kNN: pMkNN? }
 
 <h2>The $p$-Adic Metric </h2>
 
@@ -13,9 +20,11 @@ Let $p$ be any prime number. For any nonzero integer $\alpha$, let $ord_p(\alpha
 
 $$\alpha' = p^{ord_p ( \alpha )} \ \alpha' $$
 
+ \textcolor{Fatma}{ $$\alpha = p^{ord_p ( \alpha )} \ \alpha', $$ }
+
 where $\alpha'$ is an integer and $p  \nmid \alpha'$.
 
-Let $p$ be a prime. The map $\mid \cdot \mid_p$ on $\mathbb{Q}$ is defined as:
+Let $p$ be a prime. The map $\mid \cdot \mid_p$ on $\mathbb{Q}$ is defined as   \textcolor{Fatma}{ The $p$-adic absolute value map $\mid \cdot \mid_p$ on $\mathbb{Q}$ is defined as }
 
 $$ 
 \mid x \mid_p= 
@@ -27,13 +36,13 @@ $$
 
 This map is called the $p$-adic absolute value and is a metric on $\mathbb{Q}$.
 
-<h4>Example</h4>
+<h4>Example</h4>   \textcolor{Fatma}{ Bu ornegi yukariya tasımak daha uygun gibi? }
 
 $$ord_5(125)=3, ord_5(50)=2, ord_2(32)=5, ord_7(99)=0$$
 
-<h4>Example</h4>
+<h4>Example</h4> 
 
-For the 5-adic metric on $\mathbb{Q}$, $\mid 25 \mid_5=\frac{1}{5^2}=\frac{1}{25}$ and  for the 3-adic metric on $\mathbb{Q}$,     $\mid 25 \mid_3=\frac{1}{5^0}=1$ and     $\mid \frac{18}{27} \mid_3=\frac{3^3}{3^2}=\frac{27}{9}$=3.
+For the 5-adic metric on $\mathbb{Q}$, $\mid 25 \mid_5=\frac{1}{5^2}=\frac{1}{25}$ and  for the 3-adic metric on $\mathbb{Q}$,     $\mid 25 \mid_3=\frac{1}{5^0}=1$ and     $\mid \frac{18}{27} \mid_3= \frac{\mid 18\mid_3} {\mid 27 \mid_3}=\frac{3^{-2}}{3^{-3}}=\frac{27}{9}$=3.
 
 For more examples, please see <a href="https://github.com/elifkrtl/pkNN/blob/main/p_adic_examples.pdf" target="_blank">p_adic_examples.pdf</a> and <a href="https://github.com/elifkrtl/pkNN/blob/main/p_adic_examples.py" target="_blank">p_adic_examples.py</a>.
 
@@ -43,7 +52,7 @@ The $p$-adic metric defined on rational numbers is suitable for working with rea
 
 $$d( z, x_i ) = \sum_{j=1}^m \mid z_j - x_{ij} \mid _p$$
 
-\textcolor{red}{The $p$-adic distance between $z, x \in \mathbb{Q}$ is given as follows
+\textcolor{Fatma}{ The $p$-adic distance between $x, y \in \mathbb{Q}$ is given as 
 
 $$d( x, y ) = \mid x - y \mid _p.$$
 
@@ -51,7 +60,7 @@ This definition can be extended to the set $\mathbb{Q}^n$ such that
 
 $$d( x, y ) = \sum_{i=1}^n \mid x_i - y_i \mid _p,$$
 
-where $x=(x_1, \dots, x_n),  y=(y_1, \dots, y_n) \in \mathbb{Q}^n$ and $n\in \mathbb{N}$. Therefore, the $p$-adic metric defined on rational numbers is suitable for working with real-world datasets.}
+where $x=(x_1, \dots, x_n),  y=(y_1, \dots, y_n) \in \mathbb{Q}^n$ and $n\in \mathbb{N}$. Therefore, the $p$-adic metric defined on rational numbers is suitable for working with real-world datasets. }
 
 <h2> k-Nearest Neighbor Algorithm with p-adic Distance </h2>
 
