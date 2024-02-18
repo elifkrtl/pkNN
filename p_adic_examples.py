@@ -5,6 +5,7 @@ Created on January 24, 2023
     Elif KARTAL, Istanbul University, Faculty of Economics, Department of Management Information Systems 
     Fatma CALISKAN, Istanbul University, Faculty Of Science, Department Of Mathematics
     Beyaz Basak ESKISEHIRLI, Istanbul University, Faculty Of Science, Department Of Mathematics
+    Zeki OZEN, Istanbul University, Faculty of Economics, Department of Management Information Systems
     
 @title: Examples with p-adic Values and p-adic Distance
 """
