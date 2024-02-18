@@ -3,8 +3,8 @@
 Created on January 24, 2023
 @authors: 
     Elif KARTAL, Istanbul University, Faculty of Economics, Department of Management Information Systems 
-    Beyaz Basak ESKISEHIRLI, Faculty Of Science, Department Of Mathematics
-    Fatma CALISKAN, Faculty Of Science, Department Of Mathematics
+    Fatma CALISKAN, Istanbul University, Faculty Of Science, Department Of Mathematics
+    Beyaz Basak ESKISEHIRLI, Istanbul University,  Faculty Of Science, Department Of Mathematics
     Zeki OZEN, Istanbul University, Faculty of Economics, Department of Management Information Systems 
     
 @title: A Simple k-Nearest Neighbor Example with p-adic Distance, considering decimals before calculating p-adic values.
