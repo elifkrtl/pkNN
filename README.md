@@ -43,6 +43,16 @@ The $p$-adic metric defined on rational numbers is suitable for working with rea
 
 $$d( z, x_i ) = \sum_{j=1}^m \mid z_j - x_{ij} \mid _p$$
 
+\textcolor{red}{The $p$-adic distance between $z, x \in \mathbb{Q}$ is given as follows
+
+$$d( x, y ) = \mid x - y \mid _p.$$
+
+This definition can be extended to the set $\mathbb{Q}^n$ such that
+
+$$d( x, y ) = \sum_{i=1}^n \mid x_i - y_i \mid _p,$$
+
+where $x=(x_1, \dots, x_n),  y=(y_1, \dots, y_n) \in \mathbb{Q}^n$ and $n\in \mathbb{N}$. Therefore, the $p$-adic metric defined on rational numbers is suitable for working with real-world datasets.}
+
 <h2> k-Nearest Neighbor Algorithm with p-adic Distance </h2>
 
 Please see the examples in <a href="https://github.com/elifkrtl/pkNN/blob/main/p_adic_knn_example1.py" target="_blank">p_adic_knn_example1.py</a> and <a href="https://github.com/elifkrtl/pkNN/blob/main/p_adic_knn_example2.py" target="_blank">p_adic_knn_example2.py</a>.
