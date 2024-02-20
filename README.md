@@ -15,11 +15,11 @@ Let $p$ be any prime number. For any nonzero integer $\alpha$, let $ord_p(\alpha
 
 $$\alpha = p^{ord_p ( \alpha )} \ \alpha', $$
 
-where $\alpha'$ is an integer and $p  \nmid \alpha'$.
+where $\alpha'$ is an integer and $p  \nmid \alpha'$.  For all nonzero $x=\frac{a}{b} \in \mathbb{Q}$, it is defined $ord_p(x)$ as $ord_p(x) = ord_p(a) - ord_p(b)$ and $ord_p(0)=+\infty$.
 
 <h4>Example</h4>
 
-$$ord_5(125)=3, ord_5(50)=2, ord_2(32)=5, ord_7(99)=0.$$
+$$ord_2(64)=6,  ord_3(32)=0, ord_5(10)=1, ord_7(9)=0.$$
 
 The $p$-adic absolute value map $\mid \cdot \mid_p$ on $\mathbb{Q}$ is defined as
 
@@ -27,13 +27,15 @@ $$
 \mid x \mid_p= 
 \begin{cases}
 p^{-ord_p(x)} & \textrm{if} & x \neq 0, \nonumber\\
-0 & \textrm{if} & x = 0. \nonumber
+0 & \textrm{if} & x = 0, \nonumber
 \end{cases}
 $$
 
+where $x\in \mathbb{Q}$.
+
 <h4>Example</h4> 
 
-$\mid 25 \mid_5=\frac{1}{5^2}=\frac{1}{25}$, $\mid 25 \mid_3=\frac{1}{5^0}=1$ and $\mid \frac{18}{27} \mid_3= \frac{\mid 18\mid_3} {\mid 27 \mid_3}=\frac{3^{-2}}{3^{-3}}=\frac{27}{9}$=3.
+$\mid 625 \mid_5=\frac{1}{5^4}=\frac{1}{625}$, $\mid 625 \mid_3=\frac{1}{3^0}=1$ and $\mid \frac{18}{27} \mid_3=3$.
 
 For more examples, please see <a href="https://github.com/elifkrtl/pkNN/blob/main/p_adic_examples.pdf" target="_blank">p_adic_examples.pdf</a> and <a href="https://github.com/elifkrtl/pkNN/blob/main/p_adic_examples.py" target="_blank">p_adic_examples.py</a>.
 
