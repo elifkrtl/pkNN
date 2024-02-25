@@ -23,7 +23,7 @@ def is_prime(n):
             return False
     return True
 
-# The output of this function is the total number of p's in the given number.
+# The output of this function is the p-adic order in the given number.
 def is_div(num, div):
     counter = 0
     while num % div == 0:
