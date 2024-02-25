@@ -43,7 +43,7 @@ def p_adic_val(m_num, p_num):
         print("p should be a prime number!")
 
 
-# This function calculates the ord and the p-adic absolute value of the given number.
+# This function calculates the order and the p-adic absolute value of the given number.
 def p_adic_pow_val(my_num, p_numb):
     if is_prime(p_numb):
         if my_num != 0:
