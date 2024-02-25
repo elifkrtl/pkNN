@@ -28,7 +28,7 @@ y = 16
 y_p2 = p_adic.p_adic_val(y, p_num=2)
 print("2-adic value of ", y, " is ", y_p2)
 
-# p_adic_pow_val() function returns both the ord and the the p-adic absolute value of the given number.
+# p_adic_pow_val() function returns both the order and the p-adic absolute value of the given number.
 
 y_p2_ord, y_p2_val = p_adic.p_adic_pow_val(y, p_numb=2)
 print(y_p2_ord)
