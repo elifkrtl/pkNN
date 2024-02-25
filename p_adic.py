@@ -12,7 +12,6 @@ Created on February 16, 2024
 """
 
 import numpy as np
-from functools import partial
 from fractions import Fraction
 
 # p-parameter of p-adic distance must be prime.
