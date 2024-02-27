@@ -15,13 +15,13 @@ Let $p$ be any prime number. For any nonzero integer $\alpha$, let $ord_p(\alpha
 
 $$\alpha = p^{ord_p ( \alpha )} \ \alpha', $$
 
-where $\alpha'$ is an integer and $p  \nmid \alpha'$.  For all nonzero $x=\frac{a}{b} \in \mathbb{Q}$, it is defined $ord_p(x)$ as $ord_p(x) = ord_p(a) - ord_p(b)$ and $ord_p(0)=+\infty$.
+where $\alpha'$ is an integer and $p  \nmid \alpha'$. \textcolor{Fatma}{$ord_p(\alpha)$ is called the $p$-adic valuation or $p$-adic order of $\alpha$.}  For all nonzero $x=\frac{a}{b} \in \mathbb{Q}$, it is defined $ord_p(x)$ as $ord_p(x) = ord_p(a) - ord_p(b)$ and $ord_p(0)=+\infty$.
 
 <h4>Example</h4>
 
 $$ord_2(64)=6,  ord_3(32)=0, ord_5(10)=1, ord_7(9)=0.$$
 
-The $p$-adic absolute value map $\mid \cdot \mid_p$ on $\mathbb{Q}$ is defined as
+The $p$-adic absolute value $\mid \cdot \mid_p$ on $\mathbb{Q}$ is defined as
 
 $$ 
 \mid x \mid_p= 
