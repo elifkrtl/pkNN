@@ -15,7 +15,7 @@ Let $p$ be any prime number. For any nonzero integer $\alpha$, let $ord_p(\alpha
 
 $$\alpha = p^{ord_p ( \alpha )} \ \alpha', $$
 
-where $\alpha'$ is an integer and $p  \nmid \alpha'$. \textcolor{Fatma}{$ord_p(\alpha)$ is called the $p$-adic valuation or $p$-adic order of $\alpha$.}  For all nonzero $x=\frac{a}{b} \in \mathbb{Q}$, it is defined $ord_p(x)$ as 
+where $\alpha'$ is an integer and $p  \nmid \alpha'$. \textcolor{Fatma}{$ord_p(\alpha)$ is called the $p$-adic valuation or $p$-adic order of $\alpha$.}  For all nonzero $x=\frac{a}{b} \in \mathbb{Q}$, $ord_p(x)$ is defined as 
 $$ord_p(x) = ord_p(a) - ord_p(b)$$
 and $ord_p(0)=+\infty$.
 
