@@ -3,8 +3,8 @@
 Created on February 16, 2024
 @authors: 
     Elif KARTAL, Istanbul University, Faculty of Economics, Department of Management Information Systems
-    Beyaz Basak ESKISEHIRLI, Faculty of Science, Department of Mathematics
-    Fatma CALISKAN, Faculty of Science, Department of Mathematics
+    Fatma CALISKAN, Istanbul University, Faculty of Science, Department of Mathematics
+    Beyaz Basak ESKISEHIRLI, Istanbul University, Faculty of Science, Department of Mathematics
     Zeki OZEN, Istanbul University, Faculty of Economics, Department of Management Information Systems
     
 @title: Examples with p-adic calculations 
